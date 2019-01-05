@@ -15,7 +15,7 @@ namespace iCare.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Welcome to iCare by Prabu.";
+            ViewBag.Message = "Welcome to iCare by HnI Hackathon.";
 
             return View();
         }
