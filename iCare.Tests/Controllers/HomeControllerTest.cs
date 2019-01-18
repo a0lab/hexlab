@@ -35,7 +35,7 @@ namespace iCare.Tests.Controllers
             ViewResult result = controller.About() as ViewResult;
 
             // Assert
-            Assert.AreEqual("Welcome to iCare Demo for Hackathon", result.ViewBag.Message);
+            Assert.AreEqual("Welcome to iCare Demo for TED Talk", result.ViewBag.Message);
         }
 
         [TestMethod]
